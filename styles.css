@@ -1,0 +1,52 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  width: 150px;
+  border: 1px solid #9AD0EF;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2D688A;
+  background-color: #BDE6FF;
+  border-bottom: 1px solid #9AD0EF;
+  padding: 5px 10px;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.material-symbols-outlined {
+  color: #2D688A;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.main-description {
+  text-align: center;
+  color: #2D688A;
+  font-size: 12px;
+}
+
+.card-main p {
+  margin: 0;
+  padding: 0;
+}
